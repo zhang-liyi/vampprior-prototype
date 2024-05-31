@@ -1,4 +1,4 @@
-A substantial portion of the VAE VampPrior model, corresponding to `model`, `util`, and `experiment.py` is borrowed from the code of the original authors of VAE VampPrior. among these, our main addition is the `DCGANVAE` module in `models` folder.
+A substantial portion of the VAE VampPrior model, corresponding to `model`, `util`, and `experiment.py`, is borrowed from the code of the original authors of VAE VampPrior. among these, our main addition is the `DCGANVAE` module in `models` folder.
 
 Here is the License from the original authors.
 
