@@ -2,6 +2,8 @@
 
 ### Train VAE with VampPrior
 
+This section can be skipped if you would like to directly analyze two trained models.
+
 **MNIST**
 
 To train on MNIST using VAE with VampPrior,
@@ -18,6 +20,7 @@ To train a standard VAE, replace the `--prior=vampprior` tag with `--prior=stand
 For CIFAR10,
 
 `python code/experiment.py --model_name=dcganvae --dataset_name=cifar10 --number_components=500 --z1_size=200 --prior=vampprior --warmup=0 --lr=0.0005`
+
 To remove datapoints with high-entropy labels, add `--rm_labels=4` or `--rm_labels=2` to the end (to remove 4 or 2 labels).
 
 ### Analyze VAE
