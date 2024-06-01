@@ -1,5 +1,7 @@
 # Analyzing the Benefits of Prototypes for Semi-Supervised Category Learning
 
+Based on paper *Analyzing the Benefits of Prototypes for Semi-Supervised Category Learning* by Liyi Zhang, Logan Nelson, Thomas L. Griffiths, accepted at Cognitive Science Society 2024.
+
 ### Train VAE with VampPrior
 
 This section can be skipped if you would like to directly analyze two trained models.
@@ -32,5 +34,7 @@ Two example trained models are included to reproduce some results of the paper. 
 On CIFAR10,
 
 `python code/main.py --dataset=cifar10`
+
+The process for selecting high-entropy classes are implemented in `cifar10h_entropy.ipynb`.
 
 ![image info](figs/embeddings.png)
